@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Modelo A | AutoPlus</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">🚗 AutoPlus</div>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="modelo-a.html">Modelo A</a>
+      <a href="modelo-b.html">Modelo B</a>
+    </nav>
+  </header>
+
+  <section class="modelo-page">
+    <img src="https://images.unsplash.com/photo-1605559424843-9e4b1e248a3d?w=1200" alt="Modelo A" class="hero-car">
+    <div class="modelo-info">
+      <h1>Modelo A</h1>
+      <p>Diseño compacto, motor híbrido de 120 CV y tecnología de última generación. Ideal para quienes buscan eficiencia y estilo.</p>
+
+      <div class="acciones">
+        <a href="tel:+34900000000" class="btn-primary" data-event="click_llamar">📞 Llamar</a>
+        <a href="https://wa.me/34900000000" class="btn-secondary" data-event="click_whatsapp">💬 WhatsApp</a>
+      </div>
+
+      <form id="formModeloA" data-event="form_enviado">
+        <h3>Solicita información</h3>
+        <input type="text" name="nombre" placeholder="Tu nombre" required />
+        <input type="email" name="email" placeholder="Tu correo electrónico" required />
+        <button type="submit" class="btn-primary">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 AutoPlus</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
